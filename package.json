@@ -1,0 +1,28 @@
+{
+  "name": "graphql-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": ["graphql", "prisma", "cli", "typescript"],
+  "author": "Yanis Tabellout",
+  "license": "MIT",
+  "bin": {
+    "graphql-module": "./dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^22.5.0",
+    "fs-extra": "^11.2.0",
+    "typescript": "^5.5.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/yargs": "^17.0.33",
+    "eslint": "^9.9.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
