@@ -17,11 +17,17 @@ It created the following files :
 
 # Usage 
 It's recommanded to install the package globally by running ``` npm i graphql-module -g ```
-
+## Setting up the DB env
+You need to setup the .env file aby adding the ``` DB_URL ``` string. e.g : 
+```python
+DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
+```
+## Generate the 
 then running the command : 
 ```
-    graphql generate <ModuleName> -d <DIR> -n <NAME_MODULES_FOLDER>
+    graphql-module generate <ModuleName> -d <DIR> -n <NAME_MODULES_FOLDER>
 ```
+if you installed it localy to the project you may add ``` npx``` before the previous command.
 
 ## Directory
 this paramater is passed throw the **-d** flag or ```--dir=DIR``` it specifies where the **db.ts** file will be generated and the modules folder. The default value is **src**
